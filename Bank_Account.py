@@ -52,6 +52,8 @@ fontella = BankAccount(0.02, 1500)
 
 Zion = BankAccount(0.1, 2500)
 
+BankAccount.isinstances.add()
+
 # To the first account, make 3 deposits and 1 withdrawal, then yield interest and display the account's info all in one line of code (i.e. chaining)
 fontella.deposit(700).deposit(200).deposit(900).withdraw(655).yield_interest().display_account_info()
 # fontella.deposit(700 + 200 + 900).withdraw(655).yield_interest().display_account_info()
@@ -59,3 +61,4 @@ fontella.deposit(700).deposit(200).deposit(900).withdraw(655).yield_interest().d
 
 # To the second account, make 2 deposits and 4 withdrawals, then yield interest and display the account's info all in one line of code (i.e. chaining)
 Zion.deposit(600).deposit(850).withdraw(170).withdraw(40).withdraw(20).withdraw(50).yield_interest().display_account_info()
+
